@@ -1,0 +1,78 @@
+/* Header Styles */
+.header {
+  background-color: #1a202c;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+}
+
+.logout {
+  margin-left: 5px;
+}
+
+.btn:hover {
+  color: #dee2e6;
+}
+
+.btn:active {
+  color: red;
+  text-decoration: underline;
+}
+.toggle-button {
+  display: none;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Remove the comma here */
+    justify-content: space-between;
+  }
+
+  .btn-container-sm {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a202c;
+  }
+
+  .btns {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logout {
+    margin: 0;
+  }
+
+  .btn-container-lg {
+    display: none;
+  }
+
+  .toggle-button {
+    display: block;
+    justify-self: end;
+  }
+}
