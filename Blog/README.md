@@ -1,6 +1,6 @@
-# Hive Blog : https://hiveblogs.netlify.app/
+# Blog
 
-Hive Blog is a modern blog application developed using Vite, React, and Appwrite. This platform allows users to seamlessly register, log in, and engage in a personalized blogging experience. Whether you're an avid reader or an aspiring writer, Hive Blog provides a user-friendly interface for creating, editing, and managing your blog posts.
+Blog is a modern blog application developed using Vite, React, and Appwrite. This platform allows users to seamlessly register, log in, and engage in a personalized blogging experience. Whether you're an avid reader or an aspiring writer, Hive Blog provides a user-friendly interface for creating, editing, and managing your blog posts.
 
 ## Key Features:
 
@@ -33,8 +33,4 @@ Hive Blog is a modern blog application developed using Vite, React, and Appwrite
    ```bash
    npm run dev
    ```
-
-## Demo:
-
-Check out our live demo [[here](https://hiveblogs.netlify.app)](#) to experience Hive Blog in action.
 
